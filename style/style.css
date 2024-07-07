@@ -98,7 +98,7 @@ font-weight: 400;
     padding: 130px 150px;
     border-radius: 5px;
     text-align: center;
-    margin-top: 130px;
+    
   }
   /*About*/
   .about-items{display: flex;
@@ -107,4 +107,38 @@ font-weight: 400;
   }
   .about{
     font-weight: 600;
+
+  }
+  /*what i do section*/
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .skills-title{
+    font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .skills-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+padding: 20px ;
+  }
+  .skills-container{
+    display: flex;
+    gap: 24px;
+  }
+  .skill{
+    padding: 30px;
+    border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
   }
